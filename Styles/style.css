@@ -37,14 +37,55 @@ nav ul li{
 }
 
 /* second section app main feautures*/
-.appfeatures{
-    display: flex;
+.featureSection{
+    text-align: center;
 }
+.appfeatures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center; 
+}
+
+.featureFirstPart, .featureSecondPart, .featureThirdPart{
+    /* border: 1px solid black; */
+    margin: 0px 40px;
+}
+.feature{
+    width: 400px;
+    text-align: left;
+}
+.feature h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.featuretextImage{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+
+}
+.FeatureImage{
+    /* border: 1px solid black; */
+    /* height: 50%; */
+    margin: 0px 25px 0px 25px;
+    /* height: 20px;
+    align-items: center; */
+}
+
 
 /* Third section app categories*/
 .categorySection{
     background-color: aquamarine;
+    text-align: center;
 }
 .categoryMain{
     display: flex;
+}
+
+/* forth section starts Show numbers */
+
+.numbersRow{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
